@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <p id="test"></p>
+    <h1 id="test1"></h1>
+    <p id="prime"></p>
+    <p id="even or odd"></p>
+    <script>
+        //switch for traffic
+        let find=1;
+
+
+        switch(find){
+
+            case 1: document.write("Please stop!");
+                       break;
+
+            case 2: document.write("Ready to go");
+                         break;
+            case 3: document.write("it's Clear ");
+                         break;
+        }
+
+        //Inner Html & Inner Text
+        let k="inner <br> html";
+        let p="inner <br> text";
+        document.getElementById("test").innerHTML=k;
+        document.getElementById("test1").innerText=p;
+
+        //prime number
+      document.writeln("Prime Numbers"+"<br>")
+       let n = 20; 
+
+for (let num = 2; num <= n; num++) {
+
+    let isPrime = true; 
+
+    for (let i = 2; i < num; i++) {
+        if (num % i === 0) { 
+            isPrime = false; 
+            break;
+        }
+    }
+
+    if (isPrime) {
+        document.writeln(num);
+    }
+}
+
+           
+           
+        
+
+        //switch for even or not
+        document.writeln("evan or odd"+"<br>");
+
+      
+        let prog=1;
+        switch(prog){
+            case 1:  let val=10;if(val%2==0){document.write("it's an even"+"<br>")};
+                     break;
+            default: document.write("it's an odd");
+            break; 
+                      
+                    
+        }
+        
+        //mult>plication table
+        document.writeln("Multiplication Table <br>");
+
+        let t=10;
+        for(let i=1;i<=10;i++){
+            document.write(t+"*"+i+"="+t*i+"<br>");
+
+        }
+          //if condition
+          document.writeln("if condition <br<")
+        let age=16;
+        if(age>18){
+            document.writeln(" eligible ");
+        }else{
+             document.writeln(" no eligible ");
+        }
+
+        //do while from 10 to 100
+         let d=100;
+      
+do{
+    let g=10;
+    document.writeln(g);
+    g++;
+}while(g<d);;
+
+
+
+
+      
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

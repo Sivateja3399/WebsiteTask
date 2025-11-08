@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="shortcut icon" href="src/Assets/Images/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+ 
+</head>
+
+<body class="bg-[#f5f8f2] text-[#28332c]">
+
+    <header class="flex gap-28 m-10 justify-between items-center bg-[#5c7f64] px-10 py-4 rounded-lg text-white shadow-md">
+        <div class="w-16">
+            <img src="Assets/Images/logo.png"  alt="">
+        </div>
+
+        <div class="mt-4 text-xl flex justify-center gap-16 font-medium">
+            <a href="#Home" class="hover:text-[#ff8d3a] transition">Home</a>
+            <a href="#About" class="hover:text-[#ff8d3a] transition">About</a>
+            <a href="#Contact" class="hover:text-[#ff8d3a] transition">Contact</a>
+        </div>
+
+        <div>
+            <button class="ml-10 p-3 bg-[#ff8d3a] hover:bg-[#e47424] transition text-white rounded-md text-lg px-8">
+                Log In
+            </button>
+        </div>
+    </header>
+
+    <section class="m-10" id="Home">
+        <center><h1 class="text-4xl mb-16 font-semibold text-[#445747]">Home</h1></center>
+
+        <div class="flex">
+            <div class="w-full rounded">
+                <img class="rounded-se-full shadow-md " src="Assets/Images/Trekking.jpg">
+            </div>
+
+            <div class="bg-white shadow-md p-6 rounded-lg ml-6 text-lg leading-7">
+                <p>
+                    Trekking is more than just a journey through mountains and forests — it is a slow, beautiful conversation with nature. With every step, the world grows quieter, the air feels fresher, and the mind becomes lighter. The rhythm of your footsteps, the whisper of the wind, the distant call of birds, and the endless sky above create a kind of peace that no city can offer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="About" class="py-14">
+        <h1 class="text-center text-4xl mb-16 font-semibold text-[#445747]">About</h1>
+
+        <div class="flex m-10">
+            <div class="bg-white p-6 rounded-lg shadow-md text-lg leading-7 w-full">
+                <p>
+                    Trekking is more than just a journey through mountains and forests — it is a slow, 
+                    beautiful conversation with nature. With every step, the world grows quieter, the air feels fresher, and the mind becomes lighter. The rhythm of your footsteps, the whisper of the wind, the distant call of birds, and the endless sky above create a kind of peace that no city can offer.
+                </p>
+            </div>
+
+            <div class="w-full ml-6">
+                <img src="Assets/Images/Trekking_2.jpg" class="rounded-lg shadow-md">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Contact" class="py-14">
+        <h1 class="text-4xl text-center font-semibold text-[#445747] my-3">Contact Us</h1>
+
+        <div class="flex m-10 justify-between">
+            <div class="ml-48 mt-10 bg-white p-6 rounded-lg shadow-md w-1/3">
+                <input type="text" placeholder="Enter Your Name" class="text-lg w-full p-2 border rounded mb-3"><br>
+                <input type="email" placeholder="Enter Your Email" class="text-lg w-full p-2 border rounded mb-3"><br>
+                <input type="number" placeholder="Enter Your Phone Number" class="text-lg w-full p-2 border rounded mb-3"><br>
+                <input type="text" placeholder="Enter Your Address" class="text-lg w-full p-2 border rounded mb-4"><br>
+
+                <button class="bg-[#ff8d3a] hover:bg-[#e47424] text-white p-3 rounded-md w-full text-lg">
+                    Send Message
+                </button>
+            </div>
+
+            <div>
+                <center><h1 class="text-2xl font-medium">Find Us</h1></center>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.1558356829655!2d83.32066917551978!3d17.737294983210827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a394312232d46ed%3A0x49ae30c3cb3833be!2sTRIGNOSYS%20SOFTWARE%20SOLUTIONS%20PVT.LTD!5e0!3m2!1sen!2sin!4v1762590777656!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-[#5c7f64] text-white py-4 mt-10">
+        <marquee>
+            <h1 class="text-xl">Contact Us: +91 99898874456</h1>
+        </marquee>
+    </footer>
+
+</body>
+</html>
